@@ -118,14 +118,14 @@ module.exports = function () {
         [
           'expo-updates',
           {
-            username: 'blueskysocial',
+            username: 'rom4n',
           },
         ],
       ].filter(Boolean),
       extra: {
-        eas: {
-          projectId: '55bd077a-d905-4184-9c7f-94789ba0f302',
-        },
+        // eas: {
+        //   projectId: '55bd077a-d905-4184-9c7f-94789ba0f302',
+        // },
       },
       hooks: {
         postPublish: [
